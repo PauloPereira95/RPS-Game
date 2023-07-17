@@ -95,6 +95,7 @@ function playRound(choisePC, choisePlayer) {
                 }
                 if (cPC === 'scissors') {
                     victoryRound = 'Draw!';
+                    divR.innerHTML = 'DRAW!';
                 }
                 if (cPC === 'paper') {
                     victoryRound = 'Player Won!';
